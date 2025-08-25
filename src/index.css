@@ -176,6 +176,12 @@
     transform: translateY(0);
   }
 
+  /* Modal backdrop blur effect */
+  .modal-backdrop {
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+  }
+
   /* Increased spacing between content blocks */
   .space-y-8 > * + * {
     margin-top: 3rem !important;

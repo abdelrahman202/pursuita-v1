@@ -9,12 +9,12 @@ const WhyUsSection = () => {
     <section id="why" className="section-padding bg-background relative overflow-hidden" dir="rtl">
       {/* Background Icons */}
       <div className="bg-icons">
-        <Shield className="absolute top-20 left-16 w-6 h-6 text-primary animate-float" style={{ animationDelay: '0s' }} />
-        <Users className="absolute top-40 right-20 w-7 h-7 text-accent animate-float" style={{ animationDelay: '1s' }} />
-        <Clock className="absolute bottom-40 left-20 w-6 h-6 text-primary animate-float" style={{ animationDelay: '2s' }} />
-        <Award className="absolute bottom-20 right-16 w-8 h-8 text-accent animate-float" style={{ animationDelay: '0.5s' }} />
-        <Lightbulb className="absolute top-60 left-32 w-7 h-7 text-primary animate-float" style={{ animationDelay: '1.5s' }} />
-        <Rocket className="absolute bottom-32 right-32 w-6 h-6 text-accent animate-float" style={{ animationDelay: '2.5s' }} />
+        <Shield className="absolute top-20 left-16 w-8 h-8 text-primary animate-float" style={{ animationDelay: '0s' }} />
+        <Users className="absolute top-40 right-20 w-9 h-9 text-primary animate-float" style={{ animationDelay: '1s' }} />
+        <Clock className="absolute bottom-40 left-20 w-8 h-8 text-primary animate-float" style={{ animationDelay: '2s' }} />
+        <Award className="absolute bottom-20 right-16 w-10 h-10 text-primary animate-float" style={{ animationDelay: '0.5s' }} />
+        <Lightbulb className="absolute top-60 left-32 w-9 h-9 text-primary animate-float" style={{ animationDelay: '1.5s' }} />
+        <Rocket className="absolute bottom-32 right-32 w-8 h-8 text-primary animate-float" style={{ animationDelay: '2.5s' }} />
       </div>
       
       <div className="container-max relative z-10">
